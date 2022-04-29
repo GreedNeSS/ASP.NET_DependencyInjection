@@ -7,8 +7,8 @@ var app = builder.Build();
 app.Run(async context =>
 {
     StringBuilder sb = new StringBuilder();
-    sb.Append("<h1>Все сервисы!</h1>");
-    sb.Append("<table><tr><th>Тип</th><th>LifeTime</th><th>Реализация</th></tr>");
+    sb.Append("<h1>Р’СЃРµ СЃРµСЂРІРёСЃС‹!</h1>");
+    sb.Append("<table><tr><th>РўРёРї</th><th>LifeTime</th><th>Р РµР°Р»РёР·Р°С†РёСЏ</th></tr>");
 
     foreach (var service in services)
     {
