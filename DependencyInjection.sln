@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IServiceCollection", "IServ
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateServices", "CreateServices\CreateServices.csproj", "{A47351E9-25FC-4A9E-AC81-0C8B5D892EF6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetService(Bad)", "GetService(Bad)\GetService(Bad).csproj", "{0DDD6573-2E23-40D7-9B2E-EB1331E15EEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetService(Bad)", "GetService(Bad)\GetService(Bad).csproj", "{0DDD6573-2E23-40D7-9B2E-EB1331E15EEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetService(GoodVersion)", "GetService(GoodVersion)\GetService(GoodVersion).csproj", "{F780835B-E02B-402A-91CA-11485FE2BC43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetService(GoodVersion)", "GetService(GoodVersion)\GetService(GoodVersion).csproj", "{F780835B-E02B-402A-91CA-11485FE2BC43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LifeTime", "LifeTime\LifeTime.csproj", "{194B7FF5-D875-4A3C-89AC-EC6732E9F66D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F780835B-E02B-402A-91CA-11485FE2BC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F780835B-E02B-402A-91CA-11485FE2BC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F780835B-E02B-402A-91CA-11485FE2BC43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{194B7FF5-D875-4A3C-89AC-EC6732E9F66D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194B7FF5-D875-4A3C-89AC-EC6732E9F66D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194B7FF5-D875-4A3C-89AC-EC6732E9F66D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194B7FF5-D875-4A3C-89AC-EC6732E9F66D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
