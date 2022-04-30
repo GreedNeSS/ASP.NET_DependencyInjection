@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IServiceCollection", "IServiceCollection\IServiceCollection.csproj", "{12A36294-BF2C-4E6B-829A-CCF78913F2D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IServiceCollection", "IServiceCollection\IServiceCollection.csproj", "{12A36294-BF2C-4E6B-829A-CCF78913F2D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateServices", "CreateServices\CreateServices.csproj", "{A47351E9-25FC-4A9E-AC81-0C8B5D892EF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateServices", "CreateServices\CreateServices.csproj", "{A47351E9-25FC-4A9E-AC81-0C8B5D892EF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetService(Bad)", "GetService(Bad)\GetService(Bad).csproj", "{0DDD6573-2E23-40D7-9B2E-EB1331E15EEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A47351E9-25FC-4A9E-AC81-0C8B5D892EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A47351E9-25FC-4A9E-AC81-0C8B5D892EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A47351E9-25FC-4A9E-AC81-0C8B5D892EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DDD6573-2E23-40D7-9B2E-EB1331E15EEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDD6573-2E23-40D7-9B2E-EB1331E15EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDD6573-2E23-40D7-9B2E-EB1331E15EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DDD6573-2E23-40D7-9B2E-EB1331E15EEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
