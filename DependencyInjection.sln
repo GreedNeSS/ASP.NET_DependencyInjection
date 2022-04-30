@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetService(GoodVersion)", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LifeTime", "LifeTime\LifeTime.csproj", "{194B7FF5-D875-4A3C-89AC-EC6732E9F66D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Using_Services_in_Middleware_Classes", "Using_Services_in_Middleware_Classes\Using_Services_in_Middleware_Classes.csproj", "{86FADF33-A5E2-4CB4-8F8A-943670E6E79A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Using_Services_in_Middleware_Classes", "Using_Services_in_Middleware_Classes\Using_Services_in_Middleware_Classes.csproj", "{86FADF33-A5E2-4CB4-8F8A-943670E6E79A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScopedService_in_SingletonObject", "ScopedService_in_SingletonObject\ScopedService_in_SingletonObject.csproj", "{0507DDDE-79D4-4241-AFF7-12A4F290FFDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{86FADF33-A5E2-4CB4-8F8A-943670E6E79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86FADF33-A5E2-4CB4-8F8A-943670E6E79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86FADF33-A5E2-4CB4-8F8A-943670E6E79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0507DDDE-79D4-4241-AFF7-12A4F290FFDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0507DDDE-79D4-4241-AFF7-12A4F290FFDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0507DDDE-79D4-4241-AFF7-12A4F290FFDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0507DDDE-79D4-4241-AFF7-12A4F290FFDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
